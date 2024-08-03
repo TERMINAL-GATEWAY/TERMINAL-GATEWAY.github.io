@@ -17,4 +17,17 @@
   color: #00ff00;
 
   cursor: none;
+
+  animation-duration: 3s;
+  animation-delay: 400ms;
+  animation-name: mop;
+}
+
+@keyframes mop{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
