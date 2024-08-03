@@ -6,6 +6,10 @@
 }
 
 /* Not google fonts */
+html{
+  background-color: black;
+}
+
 *{
   font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
@@ -18,7 +22,7 @@
 
   cursor: none;
 
-  animation-duration: 3s;
+  animation-duration: 0s;
   animation-delay: 400ms;
   animation-name: mop;
 }
